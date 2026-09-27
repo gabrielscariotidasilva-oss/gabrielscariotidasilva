@@ -29,12 +29,18 @@
 }
 
 .introducao {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     letter-spacing: 0.1rem;
     color: #9f9fff;
     margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fcfcfc;
 }
 
 .rodape {
@@ -48,6 +54,27 @@
 
 /* Produtos */
 
-.produtos{
+.produtos {
     margin-left: 1.5rem;
-} 
+    font-size: 1.1rem;
+    color: #9f9fff;
+    line-height: 1.7;
+    font-weight: 540;
+}
+
+.produtos li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.produtos p {
+    font-size: 1rem;
+    color: #5f5d5d;
+}
+
+.produtos img {
+    margin-top: 0.5rem;
+    width: 15rem;
+    border-radius: 0.5rem;
+}
