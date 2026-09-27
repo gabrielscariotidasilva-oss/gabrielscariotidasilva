@@ -29,7 +29,7 @@
 }
 
 .introducao {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     letter-spacing: 0.1rem;
@@ -56,7 +56,7 @@ body {
 
 .produtos {
     margin-left: 1.5rem;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     color: #9f9fff;
     line-height: 1.7;
     font-weight: 540;
@@ -75,6 +75,8 @@ body {
 
 .produtos img {
     margin-top: 0.5rem;
-    width: 15rem;
+    width: 20rem;
     border-radius: 0.5rem;
 }
+
+/* Serviços */
