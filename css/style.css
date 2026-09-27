@@ -1,23 +1,53 @@
-/* Geral*/
+/* Geral */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 .banner {
-    background-image: url("../img/banner.png");
-    background-size: cover;
-    background-position: center;
+    background-image: url("../img/banner.png"); /* Sai da pasta do CSS e vai para a pasta img */
     background-repeat: no-repeat;
-    width: 100%;
-    box-sizing: border-box;
+    background-size: cover;
+    background-position: center; /* Concerta o cover */
+
+    padding: 3rem;
     color: white;
     font-family: Helvetica Neue;
 }
 
-.banner h2{
+.banner h2 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }
 
 .banner p {
     font-size: 1.3rem;
     max-width: 25rem;
 }
+
+.introducao {
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: #9f9fff;
+    margin-bottom: 1rem;
+}
+
+.rodape {
+    background-color: #9f9fff;
+    padding: 1.5rem;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 0.8rem;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Produtos */
+
+.produtos{
+    margin-left: 1.5rem;
+} 
