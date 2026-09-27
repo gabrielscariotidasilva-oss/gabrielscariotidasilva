@@ -6,6 +6,39 @@
     padding: 0;
 }
 
+header {
+    background-color: #9f9fff;
+    padding: 1rem 2rem;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho img {
+    width: 4rem;
+}
+
+header {
+    background-color: #9f9fff;
+    padding: 1rem 2rem;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho img {
+    width: 4rem;
+    border-radius: 50%;
+}
+
 .banner {
     background-image: url("../img/banner.png"); /* Sai da pasta do CSS e vai para a pasta img */
     background-repeat: no-repeat;
