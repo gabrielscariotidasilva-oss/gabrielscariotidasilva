@@ -8,42 +8,42 @@
 
 header {
     background-color: #9f9fff;
-    padding: 1rem 2rem;
-}
-
-.cabecalho {
-    display: flex;
+    padding: 1.5rem;    
     align-items: center;
-    justify-content: space-between;
+    gap: 2rem;
+    border-bottom: 0.2rem solid #fff;
 }
 
-.cabecalho img {
-    width: 4rem;
-}
-
-header {
-    background-color: #9f9fff;
-    padding: 1rem 2rem;
-}
-
-.cabecalho {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.cabecalho img {
-    width: 4rem;
+header img {
+    width: 4.5rem;
     border-radius: 50%;
+    background: #fff;
+    padding: 0.5rem;
+}
+
+.navegacao {
+    display: flex;
+}
+
+.links-nav {
+    display: flex;
+    list-style: none;
+    gap: 1.7rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.links-nav a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .banner {
     background-image: url("../img/banner.png"); /* Sai da pasta do CSS e vai para a pasta img */
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center; /* Concerta o cover */
+    background-position: center;
 
     padding: 3rem;
     color: white;
@@ -51,7 +51,7 @@ header {
 }
 
 .banner h2 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     margin-bottom: 1rem;
     margin-top: 1.2rem;
 }
@@ -85,7 +85,7 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-/* Produtos e Serviços */
+/* Produtos, Serviços e Ínicio */
 
 .produtos {
     margin-left: 1.5rem;
@@ -126,4 +126,41 @@ td {
     padding: 0.5rem;
     text-align: center;
     border: 1px solid #9f9fff;
+}
+
+/* Contato */
+
+.divisaoformulario {
+    border: 0.4rem solid #9f9fff;      
+    border-radius: 1rem;         
+    margin-left: 1.4rem;              
+    max-width: 30rem;          
+    background-color: #ffffff;   
+}
+
+.formulario {
+    padding: 1.5rem;
+}
+
+.formulario label, .form-group label, .label-block {
+    font-weight: 550;
+    color: #9f9fff;
+    margin-bottom: 0.5rem;
+}
+
+.formulario input, .formulario select, .formulario textarea, .form-group select {
+    padding: 0.75rem;
+    border: 0.1rem solid #5f5d5d;
+    border-radius: 0.2rem;
+    font-family: Helvetica Neue;
+    font-size: 1rem;
+}
+
+.botao {
+    background: #9b99ea;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
 }
