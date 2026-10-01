@@ -111,6 +111,15 @@ body {
     border-radius: 0.5rem;
 }
 
+.div-servicos{
+    display: flex;
+    gap: 6rem;
+}
+
+.div-servicos p{
+    max-width: 22rem;
+}
+
 table {
     width: 60%;
     margin-left: 1rem;
@@ -133,8 +142,8 @@ td {
 .divisaoformulario {
     border: 0.4rem solid #9f9fff;      
     border-radius: 1rem;         
-    margin-left: 1.4rem;              
-    max-width: 30rem;          
+    margin-left: 1.5rem;              
+    max-width: 35rem;          
     background-color: #ffffff;   
 }
 
@@ -145,15 +154,19 @@ td {
 .formulario label, .form-group label, .label-block {
     font-weight: 550;
     color: #9f9fff;
-    margin-bottom: 0.5rem;
+    
 }
 
 .formulario input, .formulario select, .formulario textarea, .form-group select {
-    padding: 0.75rem;
+    padding: 1rem;
     border: 0.1rem solid #5f5d5d;
     border-radius: 0.2rem;
     font-family: Helvetica Neue;
     font-size: 1rem;
+}
+
+.subtitulo-formulario{
+    color: #9f9fff;
 }
 
 .botao {
