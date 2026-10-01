@@ -211,12 +211,12 @@ td {
     .banner {
         padding: 2rem 1rem;
         background: #9f9fff;
-        background-position: left;
+        height: auto;
     }
  
     .banner h2 {
         font-size: 2rem;
-        margin: 0.8rem 0;
+        margin: 1rem 0;
     }
  
     .banner p {
