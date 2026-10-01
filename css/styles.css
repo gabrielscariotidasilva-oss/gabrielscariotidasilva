@@ -149,7 +149,8 @@ td {
 }
 
 .formulario :is(input, select, textarea), .form-group select {
-    padding: 1rem;
+    padding: 0.9rem;
+    margin-top: 0.3rem;
     border: 0.1rem solid #5f5d5d;
     border-radius: 0.2rem;
     font-family: Helvetica Neue;
