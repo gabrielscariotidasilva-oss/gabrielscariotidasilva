@@ -281,4 +281,25 @@ td {
     .botao {
         width: 100%;
     }
+
+    /* Centralizar*/
+    .introducao, .div-servicos{
+        text-align: center;
+    }
+
+    .introducao {
+        margin-left: 0;
+    }
+
+    .produtos {
+        margin: 0 1rem;
+    }
+
+    .div-servicos {
+        align-items: center;
+    }
+
+    table {
+        margin: 0 auto;
+    }
 }
