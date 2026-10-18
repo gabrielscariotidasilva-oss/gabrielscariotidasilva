@@ -1,6 +1,6 @@
 /* Geral */
 :root {
-    --lateral: clamp(1.2rem, 8vw, 9rem)
+    --lateral: clamp(1.2rem, 8vw, 9rem);
 }
 
 *, *::before, *::after {
@@ -21,7 +21,6 @@ header, .banner, .introducao, .categorias, .produtos, .rodape {
 .introducao, .categorias h2, .produtos h2 {
     font-size: 1.8rem;
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
     letter-spacing: 0.07rem;
     color: #9f9fff;
 }
@@ -62,7 +61,6 @@ header img {
 .banner {
     background: url("../img/banner.png") center / cover no-repeat;
     padding-block: 3rem;
-    max-height: 18rem;
     color: #fff;
     font-family: "Trebuchet MS", sans-serif;
 }
@@ -78,6 +76,7 @@ header img {
 }
 
 .introducao {
+    font-weight: 700;
     margin-block: 1rem;
 }
 
@@ -130,7 +129,7 @@ header img {
     font-size: 1.3rem;
     color: #9f9fff;
     line-height: 1.7;
-    font-weight: 540;
+    font-weight: 600;
 }
 
 .produtos li {
@@ -152,7 +151,7 @@ header img {
     font-size: 1rem;
     color: #5f5d5d;
     line-height: 1.6;
-    max-width: 50rem;
+    max-width: 40rem;
     text-align: justify;
 }
 
@@ -174,14 +173,13 @@ header img {
 }
 
 .com-icone img {
-    grid-column: 1;
-    grid-row: span 2; 
+    grid-row: span 2;
     width: 4rem;
     margin-top: 0;
 }
 
 .com-icone h3, .com-icone p {
-    grid-column: 2; 
+    grid-column: 2;
     margin-left: 1rem;
 }
 
@@ -211,7 +209,7 @@ header img {
 
 table {
     width: 75%;
-    padding-inline: var(--lateral);
+    margin-left: var(--lateral)
 }
 
 th {
@@ -232,7 +230,6 @@ td {
     border-radius: 0.7rem;
     width: min(90%, 40rem);
     margin: 2rem auto;
-    background-color: #fff;
 }
 
 .formulario {
@@ -245,8 +242,7 @@ td {
     color: #9f9fff;
 }
 
-.formulario :is(input:not([type="radio"], [type="checkbox"]), select, textarea),
-.form-group select {
+.formulario input:not([type="radio"], [type="checkbox"]), .formulario select, .formulario textarea, .form-group select {
     width: 100%;
     padding: 1rem;
     margin: 0.3rem 0 1rem;
@@ -262,7 +258,7 @@ td {
 }
 
 .botao {
-    background: #9b99ea;
+    background: #9f9fff;
     color: #fff;
     border: none;
     border-radius: 1rem;
