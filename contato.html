@@ -46,7 +46,7 @@
     <div class="divisaoformulario">
         <form class="formulario">
 
-            <h3 class="subtitulo-formulario">INFORMAÇÕES DO TUTOR</h3>
+            <h3 class="subtitulo-formulario">DADOS DO TUTOR</h3>
             <br>
 
             <label for="nome">Nome:</label> <br>
@@ -62,7 +62,7 @@
             <br> <br>
 
             <br>
-            <h3 class="subtitulo-formulario">INFORMAÇÕES DO PET</h3>
+            <h3 class="subtitulo-formulario">DADOS DO PET</h3>
             <br>
 
             <label for="nome">Nome do Pet:</label> <br>
@@ -73,24 +73,17 @@
             <input type="text" id="raca" name="raca" placeholder="Gato">
             <br> <br>
 
-            <label class="label-block">Porte: </label> <br> <br>
-
-            <label class="radio-label" id="opcao-label">
-                <input type="radio" name="porte" value="p" />
-                <span>Pequeno</span>
-            </label> <br> <br>
-            <label class="radio-label" id="opcao-label">
-                <input type="radio" name="porte" value="m" />
-                <span>Médio</span>
-            </label> <br> <br>
-            <label class="radio-label" id="opcao-label">
-                <input type="radio" name="porte" value="g" />
-                <span>Grande</span>
-            </label>
+            <label for="servico">Porte: </label> <br>
+            <select id="servico" name="servico">
+                <option value="">--- Porte do Animal ---</option>
+                <option value="banho">Pequeno</option>
+                <option value="tosa">Médio</option>
+                <option value="unhas">Grande</option>
+            </select>
             <br> <br>
 
             <br>
-            <h3 class="subtitulo-formulario">SERVIÇO E AGENDAMENTO</h3>
+            <h3 class="subtitulo-formulario">AGENDAMENTO</h3>
             <br>
 
             <label for="servico">Serviço: </label> <br>
